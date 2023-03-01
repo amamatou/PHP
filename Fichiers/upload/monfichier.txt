@@ -1,0 +1,4 @@
+Bonjour!
+Ce fichier 
+contient 
+des lignes.

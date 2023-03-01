@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TP1 HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 style="color:maroon; font-size:45px;">Premiere page HTML</h1>
+        <p>
+            Allez directement a la partie traitant de:<br/>
+            <a href="#image">Les images</a><br/>
+            <a href="#liens">Les liens hypertextes</a><br/>
+            <a href="#tableaux">Les tableaux</a><br/>
+        </p>
+        <h2>Texte gras ou important</h2>
+        <p>
+            <b>Texte gras avec b</b><br>
+            <strong>Texte important avec strong</strong>
+        </p>
+        <hr>
+
+        <h2>Autres</h2>
+        <small>This is some smaller text. (small)</small>
+        <p>Do not forget to buy <mark>milk</mark> today. (mark)</p>
+        <p>My favorite color is <del>blue</del> red. (del)</p>
+        <p>My favorite color is <del>red</del> <ins>blue</ins>. (del and ins)</p>
+        <hr>
+
+        <h2>Texte en italique</h2>
+        <em>emphasized text, avec em</em><br>
+        <i>text in an alternate voice or mood, italique avec i</i><br>
+        <cite>Texte avec cite</cite>
+        <hr>
+
+        <h2>Texte formate avec police a espacement constant(Teletype)</h3>
+        <tt>Texte avec tt</tt>
+        <hr>
+
+        <h2>Texte preformate</h2>
+        <pre>
+            Texte avec pre
+            pas beson de br ici
+            il force le retour a la ligne
+        </pre>
+        <hr>
+
+        <h2>Augmenter ou reduire la taille des caracteres</h2>
+        <font size="+2">Texte accroisse de 2 unites</font size="+2"><br>
+        <font size="+4">Texte plus 4 unites</font size="+4"><br>
+        <font size="-2">Texte reduit de 2 unites</font size="-2">
+        <blockquote>Emprisonne le paragraphe</blockquote>
+        <strike>J'apprecie beaucoup S</strike> Il est comme mon 
+        H<sub>2</sub>O  hhhhh<br>
+        x<sup>4</sup>
+        <hr>
+
+        <h2>Caracteres speciaux</h2>
+        &lt;Bonjour&gt; avec &amp;lt; et &amp;gt; &quot;Merci&quot;<br/> 
+        &amp;quot; pour &quot; <br/>
+        &amp;amp; pour &amp; 
+        <hr>
+
+        <h2 id="image">Images</h2>
+        <p>
+            <img src="nature.gif" alt="nature image" width="200px" height="220px">
+            <IMG src="nature2.jpg" alt="nature image" width="200px" height="220px">    
+        </p>
+        <figure>
+            Vous souhaitez voir l'image dans sa taille d'origine ? Cliquez dessus !<br />
+            <a href="figure.png"><img src="figure.png" alt="fig triangle rectangle" title="Cliquez pour agrandir"  width="200px" height="220px"/></a>
+            <figcaption>Triangle rectangle</figcaption>
+        </figure>
+        <p>
+            
+        </p>
+         <hr>
+
+        <h2 id="liens">Les liens</h2>
+        <a href="index.html">Actualiser la page</a><br><br>
+        <A HREF="../PremierProjet/index.html">Vous souhaitez visiter une autre page?</A><br><br><br>
+        <a href="https://www.google.com"><img src="google.png" alt="Lien pour acceder a google" width="120px" height="100px"></a>
+        <p>On trouve au tout debut de la page des liens sur des parties specifiques de la page<br/>
+            L'attribut Title permet de mettre une infobulle lorsqu'on survole le lien <br/>
+            target="_blank" pour ouvrir le lien dans un nouvel onglet <a href="index.html" title="Aller sur un nouvel onglet" target="_blank">Nouvel onglet</a><br/>
+            <a href="mailto:lookmanossam.sana@etu.uae.ac.ma">Envoyer un email a Sana</a><br/>
+            <a href="nature.rar">Telecharger le fichier</a>
+        </p>   
+        <hr>
+
+        <h2 style="background-color: aliceblue;" id="tableaux">Tableaux</h2>
+        <table width="60%" border="1px" cellpadding="5px" cellspacing="0px">
+            <tr align="center" valing="middle">
+                <td align="left" valign="bottom" width="100%" colspan="4">C11</td>
+            </tr>
+            <tr align="center" valing="middle">
+                <td>C21</td>
+                <td>C22</td>
+                <td>C23</td>
+                <td>C24</td>
+            </tr>
+            <tr align="center" valing="middle">
+                <td rowspan="2">C31</td>
+                <td>C32</td>
+                <td>C33</td>
+                <td>C34</td>
+            </tr>
+            <tr align="center" valing="middle">
+                <td>C42</td>
+                <td>C43</td>
+                <td>C44</td>
+            </tr>
+        </table>
+    </body>
+</html>

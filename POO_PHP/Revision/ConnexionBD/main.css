@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(163, 201, 201);
+}
+
+h1{
+    text-align: center;
+    margin: 20px auto;
+}
+
+table{
+    margin: 50px auto;
+}
+
+thead{
+    background-color: rgb(82, 82, 185);
+    color: white;
+    height: 300px;
+}
+
+tbody{
+    background-color: rgb(47, 47, 51);
+    padding: 50px;
+    color: white;
+}
+
+table tr{
+    text-align: center;
+}
+
+table tr td{
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    border: solid 1px rgb(62, 65, 65);
+}
+
+table tr th{
+    padding: 12px;
+    text-align: center;
+    width: 200px;
+    border: solid 1px rgb(117, 122, 122);
+}
